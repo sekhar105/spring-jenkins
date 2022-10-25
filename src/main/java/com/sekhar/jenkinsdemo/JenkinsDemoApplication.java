@@ -20,6 +20,7 @@ public static	Logger logger= LoggerFactory.getLogger(JenkinsDemoApplication.clas
 	public static void main(String[] args) {
 		
 		logger.info("applicatoin executed");
+		logger.info("for second commit");
 		SpringApplication.run(JenkinsDemoApplication.class, args);
 	}
 
